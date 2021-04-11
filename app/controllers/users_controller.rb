@@ -4,23 +4,18 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
-  def show
+  def show; end
 
-  end
-
-  def edit
-
-  end
+  def edit; end
 
   def update
-
     respond_to do |format|
-    if @user.update(user_params)
-      format.html {redirect_to @user, notice: "User data is updated!"}
-    else
-      format.html {render :edit, status: :unprocessable_entity }
+      if @user.update(user_params)
+        format.html { redirect_to @user, notice: 'User data is updated!' }
+      else
+        format.html { render :edit, status: :unprocessable_entity }
+      end
     end
-  end
   end
 
   def new
