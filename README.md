@@ -50,7 +50,7 @@ press the new button under the User listing page.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](re-former/issues).
+Feel free to check the [issues page](https://github.com/marijanbrvar/re-former/issues).
 
 ## Show your support
 
