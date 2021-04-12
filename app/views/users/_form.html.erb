@@ -41,14 +41,14 @@
 </div>
 <div>
   <%= u.label :email %>
-  <%= u.text_field :email, placeholder: "example@example.com" %>
+  <%= u.email_field :email, placeholder: "example@example.com" %>
   <% @user.errors.full_messages_for(:email).each do |message| %>
     <%= message %>
   <% end %> <br><br>
 </div>
 <div>
   <%= u.label :password %>
-  <%= u.text_field :password %>
+  <%= u.password_field :password %>
   <% @user.errors.full_messages_for(:password).each do |message| %>
     <%= message %>
   <% end %> <br><br>
