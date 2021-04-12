@@ -1,44 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bare Metal Forms and Helpers
 
-> One paragraph statement about the project.
+> Gradually replace HTML form with Rails functionality
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+In this project, we have the opportunity to gradually learn and understand how to change HTML form
+with Ruby on Rails provided methods. From creating the layout, adding fields with the ability
+to validate entered data, and finally saving and editing saved data.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- Ruby on Rails
+- SQLite3
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+1. Clone this project by entering the following command in your terminal `git clone git@github.com:marijanbrvar/re-former.git`
+2. Change to the directory and run bundler `bundle install.`
+3. Initialize your local database by running `rails db:create` and then `rails db:migrate`
+4. Run your rails server `rails s`
 
 ### Prerequisites
+- Git
+- Ruby
+- Ruby on Rails
+- Bundler
 
-### Setup
-
-### Install
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+1. Add your user data to the repository by filling in a simple web form.
+You can access the web form `http://localhost:3000/users/new`
 
 
 ## Authors
@@ -55,19 +49,13 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/marijanbrvar/re-former/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-- This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+- This project is [MIT](https://github.com/marijanbrvar/re-former/blob/bare-metal-forms-helpers/LICENSE) licensed.
 - This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
