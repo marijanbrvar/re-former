@@ -32,8 +32,7 @@ to validate entered data, and finally saving and editing saved data.
 
 ### Usage
 1. Add your user data to the repository by filling in a simple web form.
-You can access the web form `http://localhost:3000/users/new` or
-press the new button under the User listing page.
+You can access the web form `http://localhost:3000/users/new`
 
 
 ## Authors
